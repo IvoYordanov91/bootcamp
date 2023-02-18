@@ -1,0 +1,47 @@
+/* selectores etiqueta */
+h1{
+    color:aqua;
+    font-size: 14px;
+    /*border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;*/
+    border: 5px solid black;
+    /*padding: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;*/
+    padding: 2px 5px 2px 5px;
+    margin: 20px;
+}
+p{
+    color: blue;
+}
+
+.greentext{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+.subtitle{
+    font-size: 16px;
+}
+
+.greentext, .subtitle {
+text-transform: uppercase;
+}
+.img_kitten{
+    width: 200px;
+    height: 250px;
+}
+.container{
+    background-color: bisque;
+}
+.children{
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    display: inline-block;
+    /* block, inline, inline-block */
+}
