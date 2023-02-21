@@ -1,0 +1,33 @@
+.logo{
+    width: 100px;
+}
+header{
+    background-color: blanchedalmond;
+    height: 100%;
+}
+.container {
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: pink;
+}
+.title{
+    width: 100%;
+    text-align: center;
+}
+.item{
+    width: 40%;
+    height: 100px;
+    margin: 1px;
+}
+.item1{
+    background-color: blueviolet;
+}
+.item2{
+    background-color: aquamarine;
+}
+.item_order{
+    order: 0;
+}
