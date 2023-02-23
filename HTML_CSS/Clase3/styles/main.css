@@ -1,0 +1,38 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    flex-wrap: wrap;
+    width: 40%;
+}
+.first{
+    display: flex;
+}
+.second{
+    display: flex;
+}
+input{
+    margin-left: 10px;
+}
+.logo{
+    width: 10%;
+}
+.header{
+    position: sticky;
+    background-color: blueviolet;
+    top: 0;
+    left: 0;
+}
+.section_form{
+    position: relative;
+    background-color: brown;
+}
+.chat{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: sticky;
+    bottom: 0;
+    right: 0;
+}
