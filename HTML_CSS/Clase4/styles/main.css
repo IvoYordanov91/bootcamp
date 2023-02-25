@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 100px;
+    grid-gap: 5px;
+}
+
+.container_box{
+    background: deeppink;
+    color: white;
+}
+.item1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.item4{
+    /*grid-column: 2/4;*/
+    grid-column: span 2;
+}
+.item5{
+    grid-column-start: 1;
+    grid-column-end:3;
+}
