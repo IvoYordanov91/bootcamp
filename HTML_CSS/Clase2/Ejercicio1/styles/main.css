@@ -2,7 +2,10 @@
     font-family: CircularSp;
     src: url(./Fonts/CircularStd-Book.ttf);
 }
-
+@font-face {
+    font-family: spotify-circular;
+    src: url(./Fonts/CircularSpotifyTxT-Book.ttf);
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -14,7 +17,14 @@
     left: 0;
     position: relative;
     top: 0;
-    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.header_content_container{
+    display: flex;
+}
+svg {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+    width: 100%;
 }
 .top_links{
     text-decoration: none;
@@ -29,13 +39,30 @@ a:hover{
     flex-wrap: wrap;
 }
 .top_nav{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
     font-size: 16px;
-    color: azure;
+    font-weight: 400;
+    line-height: 1.5;
+    min-height: 54px;
 }
 .item{
     margin: 1%;
 }
 .header_logo_container{
     display: inline-block;
+    width: 5vh;
+}
+.vector_information{
+    width: 100%;
+    height: 100%;
+    font: 0/0 a;
+    display: inline-block;
+	height: 27px;
+	width: 89px;
+    margin: 0;
+    text-shadow: none;
+    border: 0;    
+}
+g.vector_information{
+    fill: currentColor;
 }
