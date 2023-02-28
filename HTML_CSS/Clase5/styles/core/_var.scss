@@ -1,0 +1,14 @@
+$background-color : pink;
+$seconadary-color: black;
+$color-title: rgb(187, 21, 187);
+
+@mixin boxConfig ($colorShadow, $colorBackg){
+    background-color: $colorBackg;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px $colorShadow;
+}
+@mixin mediaQueries ($minWidth, $width) {
+    @media (min-width: $minWidth) {
+        width: $width;      
+    }
+}

@@ -1,0 +1,29 @@
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    &_element {
+        @include boxConfig (black, grey);
+        width: 45%;
+        margin-bottom: 10px;
+
+        &-img {
+            width: 100%;
+        }
+
+        &-title {
+            font-weight: bold;
+            color: $color-title;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+
+    h2 {
+        width: 100%;
+        color: red;
+    }
+    @include mediaQueries(769px, 45%);
+    @include mediaQueries(1200px, 23%);
+}

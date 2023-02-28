@@ -1,0 +1,115 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu {
+  background-color: aqua;
+}
+.menu_list {
+  list-style-type: none;
+}
+.menu_list-item {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.cards_element {
+  background-color: grey;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+  width: 45%;
+  margin-bottom: 10px;
+}
+.cards_element-img {
+  width: 100%;
+}
+.cards_element-title {
+  font-weight: bold;
+  color: rgb(187, 21, 187);
+  font-size: 20px;
+  text-align: center;
+}
+.cards h2 {
+  width: 100%;
+  color: red;
+}
+@media (min-width: 769px) {
+  .cards {
+    width: 45%;
+  }
+}
+@media (min-width: 1200px) {
+  .cards {
+    width: 23%;
+  }
+}
+
+.footer {
+  margin-top: 20px;
+  background-color: red;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px blue;
+}
+
+h1 {
+  color: black;
+  background-color: pink;
+  border: 1px solid blue;
+}/*# sourceMappingURL=main.css.map */

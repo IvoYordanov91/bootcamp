@@ -1,0 +1,13 @@
+.menu {
+    background-color: aqua;
+
+    &_list {
+        list-style-type: none;
+
+        &-item {
+            display: inline-block;
+            padding: 10px;
+            border: 1px solid $seconadary-color;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@import "./core/reset";
+@import "./core/var";
+@import "nav";
+@import "cards";
+@import "./sections/footer.scss";
+
+h1 {
+    color: $seconadary-color;
+    background-color: $background-color;
+    border: 1px solid blue;
+}
