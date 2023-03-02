@@ -106,10 +106,26 @@ a {
   background-color: red;
   border-radius: 15px;
   box-shadow: 5px 5px 5px blue;
+  display: grid;
+  grid-template-columns: repeat(12, 100 px);
 }
 
 h1 {
   color: black;
   background-color: pink;
   border: 1px solid blue;
+}
+
+.header {
+  color: white;
+  background-color: blue;
+  border: 1px solid black;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.contact-form {
+  border: 1px solid green;
+  background-color: grey;
 }/*# sourceMappingURL=main.css.map */

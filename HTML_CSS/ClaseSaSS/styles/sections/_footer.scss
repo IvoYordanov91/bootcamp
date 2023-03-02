@@ -1,0 +1,6 @@
+.footer {
+    margin-top: 20px;
+    @include boxConfig (blue, red);
+    display: grid;
+    grid-template-columns: repeat(12, calcularColumnas(1200)px);
+}
