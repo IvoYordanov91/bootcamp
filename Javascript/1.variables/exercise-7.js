@@ -4,7 +4,8 @@ const car2 = {name: 'Chevrolet Corbina', basePrice: 70000, finalPrice: 80000};
 
 globalBasePrice = 25000;
 
-car1.finalPrice = car1.basePrice + globalBasePrice;
-car2.finalPrice = car2.basePrice + globalBasePrice;
+for (var i = 1; i <= 2; i++) {
+eval("car" + i).finalPrice = eval("car" + i).basePrice + globalBasePrice;
+}
 console.log(car1);
 console.log(car2);
