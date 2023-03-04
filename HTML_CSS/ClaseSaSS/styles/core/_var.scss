@@ -12,3 +12,14 @@ $color-title: rgb(187, 21, 187);
         width: $width;      
     }
 }
+@mixin colorsTitle{
+    @content; //cualquier cosa
+    background-color: blue;
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+@function calcularColumnas($width){
+    @return $width/12;
+}
