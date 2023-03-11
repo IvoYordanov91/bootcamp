@@ -18,7 +18,7 @@ puntajes[0].pop();
 console.log(puntajes);
 
 // Agrega el numero 50 al final de la tercera fila del array original.
-puntajes.splice(1, 0,  [4, 9, 3, 7]);
+puntajes.splice(1, 0,  secondColumn);
 puntajes[2].push(50);
 console.log(puntajes);
 
