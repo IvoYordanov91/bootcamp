@@ -70,3 +70,9 @@ console.log(miSecondDiv$$.children);
 //replaceChild(new, old): Reemplaza un nodo por otro que se indica. 
 miSecondDiv$$.replaceChild(newDiv, estilo$$[0]);
 console.log(miSecondDiv$$);
+
+//setAttribute(): Añade un nuevo atributo a un elemento HTML. Le pasamos como primer argumento el nombre de atributo y como segundo el valor
+newDiv.setAttribute("id","nuevo");
+
+//getAttribute()
+console.log(newDiv.getAttribute("id"));

@@ -1,0 +1,116 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.5;
+  }
+  
+  a {
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos de la barra superior */
+  header {
+    background-color: #55b9f3;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  header nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  header nav li:first-child {
+    margin-left: 0;
+  }
+  
+  header nav a {
+    display: block;
+    padding: 10px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  header nav a:hover {
+    background-color: #387eb7;
+  }
+  
+  /* Estilos de las tarjetas */
+  section {
+    background-color: #ffffff;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .card img {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .card p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #55b9f3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #387eb7;
+  }

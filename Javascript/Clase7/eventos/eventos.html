@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Granja Upgrade Hub</title>
+    <link rel="stylesheet" href="./eventos.css" />
+    <script src="./eventos.js" defer></script>
+  </head>
+  <body onscroll="doScroll()">
+    <header>
+      <div class="container">
+        <h1>Granja Upgrade Hub</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="container">
+          <h2>Nuestras tarjetas de animales</h2>
+          <p>Dale a la tecla "i" para obtener información.</p>
+          <p>Dale a la tecla "v" para obtener información de las vacas.</p>
+          <p>Dale a la tecla "c" para obtener información de los caballos.</p>
+          <p>Dale a la tecla "g" para obtener información de las gallinas.</p>
+          <div class="card-container">
+            <div class="card" onclick="alert('Ha pulsado en la tarjeta de la vaca')" id="vaca">
+              <img
+                src="https://via.placeholder.com/300x200"
+                alt="Imagen de una vaca"
+              />
+              <h3>Vaca</h3>
+              <p>
+                La vaca es un animal doméstico que proporciona leche y carne. En
+                nuestra granja contamos con varias razas de vacas y cuidamos su
+                alimentación y salud para garantizar la mejor calidad de
+                nuestros productos.
+              </p>
+              <a href="#" class="button">Más información</a>
+            </div>
+
+            <div class="card" onclick="cardCaballo()" id="caballo">
+              <img
+                src="https://via.placeholder.com/300x200"
+                alt="Imagen de un caballo"
+              />
+              <h3>Caballo</h3>
+              <p>
+                El caballo es un animal noble y muy apreciado por su belleza y
+                fuerza. En nuestra granja contamos con varios ejemplares de
+                distintas razas y los cuidamos con esmero para garantizar su
+                bienestar.
+              </p>
+              <a href="#" class="button">Más información</a>
+            </div>
+
+            <div class="card" id="gallina" >
+              <img
+                src="https://via.placeholder.com/300x200"
+                alt="Imagen de una gallina"
+              />
+              <h3>Gallina</h3>
+              <p>
+                La gallina es un animal de granja que proporciona huevos y
+                carne. En nuestra granja criamos gallinas de distintas razas y
+                las alimentamos con una dieta equilibrada para garantizar la
+                calidad de nuestros productos.
+              </p>
+              <a href="#" class="button">Más información</a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <h2>Contáctanos</h2>
+          <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>Derechos reservados &copy; 2023 Granja Upgrade Hub</p>
+      </div>
+    </footer>
+  </body>
+</html>
