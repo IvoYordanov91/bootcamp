@@ -52,8 +52,8 @@ class Student extends Person{
     }
 }
 
-let ricardo = new Teacher(36, "Ricardo", "profesor", "Javascript");
-let ivo = new Student(31, "Ivo", "estudiante", 8);
+let profesorJavascript = new Teacher(36, "Ricardo", "profesor", "Javascript");
+let estudianteJavascript = new Student(31, "Ivo", "estudiante", 8);
 
-ricardo.bio();
-ivo.bio();
+profesorJavascript.bio();
+estudianteJavascript.bio();
