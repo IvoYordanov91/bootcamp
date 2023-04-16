@@ -1,0 +1,14 @@
+main{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+div{
+    width: 200px;
+    height: 300px;
+}
+img{
+    width: 100px;
+    height: 200px;
+    object-fit: cover;
+}
