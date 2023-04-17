@@ -1,0 +1,25 @@
+{
+    "numberUsers": 4,
+    "results": [
+    {
+        "id": 1,
+        "nombre": "Ricardo Cebrian",
+        "email": "ricardo@example.com"
+    },
+    {
+        "id": 2,
+        "nombre": "Javier Barrio",
+        "email": "javier@example.com"
+    },
+    {
+        "id": 3,
+        "nombre": "Carlos Pastor",
+        "email": "carlos@example.com"
+    },
+    {
+        "id": 4,
+        "nombre": "Gonzalo Cano",
+        "email": "gonzalo@example.com"
+    }
+]
+}

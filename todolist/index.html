@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Lista de tareas</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./styles.css'>
+    <script src='./main.js' defer></script>
+</head>
+
+<body>
+    <h1>TO-DO LIST 📝</h1>
+    <ul id="lista-tareas"></ul>
+    <form id="formulario-tarea">
+        <label for="titulo">Titulo</label>
+        <input type="text" id="titulo" name="titulo" required>
+        <label for="estado">Estado:</label>
+        <select name="estado" id="estado">
+            <option value="">Seleccionar</option>
+            <option value="Pendiente">Pendiente</option>
+            <option value="En Progreso">En Progreso</option>
+            <option value="Completada">Completada</option>
+        </select>
+        <label for="fecha">Fecha Limite</label>
+        <input type="text" id="fecha" name="fecha" placeholder="YYYY-MM-DD" required>
+        <label for="prioridad">Prioridad:</label>
+        <select name="prioridad" id="prioridad" required>
+            <option value="">Seleccionar</option>
+            <option value="alta">Alta</option>
+            <option value="media">Media</option>
+            <option value="baja">Baja</option>
+        </select>
+        <label for="responsable">Responsable:</label>
+        <select name="responsable" id="responsable" required></select>
+        <label for="descripcion">Descripción</label>
+        <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
+        <button type="submit">Agregar Tarea</button>
+    </form>
+</body>
+
+</html>
