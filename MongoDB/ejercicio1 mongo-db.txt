@@ -1,0 +1,16 @@
+0.0 use ciudades
+0.1 db.createCollection(“ciudad”)
+db.ciudad.insertMany([{ciudad : "Madrid", habitantes : 3233527, capital: true}, {ciudad : "Barcelona", habitantes: 1620943 }, {ciudad: "Valencia", habitantes: 797028 },{ciudad: "Sevilla", habitantes: 702355 },{ciudad: "Zaragoza", habitantes: 679624 }])
+
+1 db.ciudad.find().sort({habitantes: 1})
+2 db.ciudad.find().sort({habitantes: 1}).limit(2)
+3 db.ciudad.find().sort({habitantes: -1})
+4 db.ciudad.find({ciudad: /^M/})
+5a db.ciudad.find({ciudad: -1})
+5b db.ciudad.find().sort({habitantes: 1})
+5 db.ciudad.find().sort({habitantes: 1, ciudad: -1})
+6 db.ciudad.find({capital :{$eq: true}}) ----- también ------- db.ciudad.find({capital :{$eq: true}})
+7 db.ciudad.find({habitantes :{$gt: 1000000}}) ------- sólo nombre de la ciudad --------- db.ciudad.find({habitantes :{$gt: 1000000}}, {ciudad:1, _id: 0})
+8 db.ciudad.find({ciudad:{$in:['Avila','Zamora','Madrid']}}) ----- también otra forma de escribir lo mismo ------- db.ciudad.find({$or: [{ciudad: "Madrid"}, {ciudad: "Segovia"}, {ciudad: "Zamora"}]})
+9 db.ciudad.find().count()
+10 db.ciudad.find({$or: [{ciudad: /^B/}, {ciudad: /z$/}]})
